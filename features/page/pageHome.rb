@@ -7,7 +7,7 @@ class HomePage < SitePrism::Page
 def selecionarEmail
 	caixa_email.click
 	bnt_apagar.click
-end	
+end
 
 def sair
 	bnt_sair.click
