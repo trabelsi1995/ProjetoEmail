@@ -3,10 +3,10 @@ class LoginPage < SitePrism::Page
 	element :email_field, "input[name='user']"
 	element :password_field, :xpath, "//*[@id='login']/div/form/input[5]"
 	element :bnt_entrar, "button[type='submit']"
-		
-	def acesso(user,pass)
-		email_field.set(user)
-		password_field.set(pass)
-		bnt_entrar.click
-	end
+
+def acesso(user,pass)
+	email_field.set(user)
+	password_field.set(pass)
+	bnt_entrar.click
+end
 end

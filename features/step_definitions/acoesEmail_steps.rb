@@ -1,8 +1,8 @@
 Dado(/^que estou na pagina$/) do
-	@page = LoginPage.new 
+	@page = LoginPage.new
 	@page.load
 end
-	 
+
 Quando(/^realizo o login$/) do
 	@page.acesso(MASSA['login']['email'],MASSA['login']['senha'])
 end

@@ -4,12 +4,12 @@ class HomePage < SitePrism::Page
 	element :bnt_sair, :xpath, "/html/body/div[3]/div/section[2]/div/div[1]/div[1]/div[2]/a[2]"
 	element :homepage, "input[name='user']"
 
-	def selecionarEmail	 
-			caixa_email.click	
-			bnt_apagar.click			
-	end	
+def selecionarEmail
+	caixa_email.click
+	bnt_apagar.click
+end	
 
-		def sair
-			bnt_sair.click
-		end		
-end 	
+def sair
+	bnt_sair.click
+end
+end
