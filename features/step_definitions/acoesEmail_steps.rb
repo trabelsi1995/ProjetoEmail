@@ -8,5 +8,5 @@ Quando(/^realizo o login$/) do
 end
 
 Entao(/^apresentará home$/) do
-	assert_text('Escrever')  
+	assert_text('Escrever')
 end
